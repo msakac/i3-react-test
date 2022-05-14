@@ -8,10 +8,14 @@ const [clicked, setValue] = useState(false)
   return (
     <div className='header'>
         <nav className='navbar'>
+
+            <img className='navbar-logo-mobile' src={require("../pictures/logo.png")} alt="Početna"></img>
+
+        
             <div className='navbar-icon' onClick = {()=>setValue(!clicked)}>
                 <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
-            <ul className={clicked ? 'navbar-menu.active':'navbar-menu'}>
+            <ul className={clicked ? 'navbar-menu active':'navbar-menu'}>
                 <li>
                     <a className='navbar-link' href="/">O nama</a>
                 </li>
