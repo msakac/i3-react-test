@@ -9,7 +9,9 @@ const [clicked, setValue] = useState(false)
     <div className='header'>
         <nav className='navbar'>
 
-            <img className='navbar-logo-mobile' src={require("../pictures/logo.png")} alt="Početna"></img>
+            <a href="/">
+                <img className='navbar-logo-mobile' src={require("../pictures/logo.png")} alt="Početna"></img>
+            </a>
 
         
             <div className='navbar-icon' onClick = {()=>setValue(!clicked)}>
