@@ -1,0 +1,59 @@
+[
+    {
+        "naslov":"",
+        "sadrzaj": "",
+        "naslovnaSlika":"",
+        "footer":[
+            {
+                "urlSlika":"",
+                "sadrzaj":""
+            },
+            {
+                "urlSlika":"",
+                "sadrzaj":""
+            },
+            {
+                "urlSlika":"",
+                "sadrzaj":""
+            }
+        ]
+    },
+    {
+        "naslov":"",
+        "sadrzaj": "",
+        "naslovnaSlika":"",
+        "footer":[
+            {
+                "urlSlika":"",
+                "sadrzaj":""
+            },
+            {
+                "urlSlika":"",
+                "sadrzaj":""
+            },
+            {
+                "urlSlika":"",
+                "sadrzaj":""
+            }
+        ]
+    },
+    {
+        "naslov":"",
+        "sadrzaj": "",
+        "naslovnaSlika":"",
+        "footer":[
+            {
+                "urlSlika":"",
+                "sadrzaj":""
+            },
+            {
+                "urlSlika":"",
+                "sadrzaj":""
+            },
+            {
+                "urlSlika":"",
+                "sadrzaj":""
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "naziv": "Početna",
+        "postotak": "navbar-button" 
+    },
+    {
+        "id": 2,
+        "naziv": "Početna",
+        "postotak": "navbar-button" 
+    },
+    {
+        "id": 3,
+        "naziv": "Početna",
+        "postotak": "navbar-button" 
+    },
+    {
+        "id": 4,
+        "naziv": "Početna",
+        "postotak": "navbar-button"
+    },
+    {
+        "id": 5,
+        "naziv": "Početna",
+        "postotak": "navbar-button" 
+    },
+    {
+        "id": 6,
+        "naziv": "Početna",
+        "postotak": "navbar-button"
+    }
+]
