@@ -19,10 +19,10 @@ const [clicked, setValue] = useState(false)
             </div>
             <ul className={clicked ? 'navbar-menu active':'navbar-menu'}>
                 <li>
-                    <a className='navbar-link' href="/">O nama</a>
+                    <a className='navbar-link' href="/o-nama">O nama</a>
                 </li>
                 <li>
-                    <a className='navbar-link' href="/">Projekti</a>
+                    <a className='navbar-link' href="/projekti">Projekti</a>
                 </li>
                 <li>
                     <a className='navbar-link' href="/">
@@ -30,10 +30,10 @@ const [clicked, setValue] = useState(false)
                     </a>
                 </li>
                 <li>
-                    <a className='navbar-link' href="/">Objave</a>
+                    <a className='navbar-link' href="/objave">Objave</a>
                 </li>
                 <li>
-                    <a className='navbar-link' href="/">Kontakt</a>
+                    <a className='navbar-link' href="/kontakt">Kontakt</a>
                 </li>
             </ul>
         </nav>
