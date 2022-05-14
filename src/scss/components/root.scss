@@ -1,0 +1,7 @@
+@use '../abstracts/fonts.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fonts.$font;
+}

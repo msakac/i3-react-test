@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "naslov": "Početna",
+        "className": "navbar-button",
+        "href": "/" 
+    },
+    {
+        "id": 2,
+        "naslov": "O nama",
+        "href": "/" 
+    },
+    {
+        "naslov": "Izvještaji",
+        "href": "/" 
+    },
+    {
+        "naslov": "Objave",
+        "href": "/" 
+    }
+]
