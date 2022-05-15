@@ -1,0 +1,19 @@
+@use '../abstracts/colors.scss';
+@use '../abstracts/fonts.scss';
+.projekti-flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projekti-flex-box .projekt-container {
+  width: 200px;
+  height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=projekt.css.map */

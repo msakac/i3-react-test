@@ -1,0 +1,48 @@
+@use '../abstracts/colors.scss';
+@use '../abstracts/fonts.scss';
+
+.parent-wrap{
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+
+.projekti-flex-box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .projekt-container{
+        margin: 30px 40px 30px 40px;
+        width: 200px;
+        height: 250px;
+        position: relative;
+        text-align: center;
+        color: colors.$text-blue;
+
+        &:last-of-type{
+            margin-bottom: 50px;
+        }
+    }
+    .projekt-postotak-container{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background: colors.$text-yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        transition: all 0.4s ease;
+        &:hover{
+            transition: all 0.4s ease;
+            filter: drop-shadow(-10px -10px 30px colors.$text-blue);
+            background-color: rgba(colors.$text-yellow, 0.9);
+            font-size: 30px;
+        }
+        h2{
+            color: colors.$text-white;
+        }
+    }
+}

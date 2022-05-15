@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Projekt from '../components/Projekt'
 function Projekti() {
   return (
-    <h1>Ovo su projekti</h1>
+      <Projekt/>
   )
 }
 

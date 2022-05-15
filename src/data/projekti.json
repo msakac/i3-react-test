@@ -1,32 +1,32 @@
 [
     {
         "id": 1,
-        "naziv": "Početna",
-        "postotak": "navbar-button" 
+        "naziv": "Prodaja",
+        "postotak": "+75%" 
     },
     {
         "id": 2,
-        "naziv": "Početna",
-        "postotak": "navbar-button" 
+        "naziv": "Marketing",
+        "postotak": "+16%" 
     },
     {
         "id": 3,
-        "naziv": "Početna",
-        "postotak": "navbar-button" 
+        "naziv": "Troškovi",
+        "postotak": "-35%" 
     },
     {
         "id": 4,
-        "naziv": "Početna",
-        "postotak": "navbar-button"
+        "naziv": "Plaće",
+        "postotak": "+120%"
     },
     {
         "id": 5,
-        "naziv": "Početna",
-        "postotak": "navbar-button" 
+        "naziv": "Produktivnost",
+        "postotak": "+67%" 
     },
     {
         "id": 6,
-        "naziv": "Početna",
-        "postotak": "navbar-button"
+        "naziv": "Zabava IDk",
+        "postotak": "+7%"
     }
 ]
