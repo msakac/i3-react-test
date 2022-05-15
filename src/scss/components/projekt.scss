@@ -5,6 +5,14 @@
     width: 50%;
     justify-content: center;
     margin: auto;
+    .naslov{
+        margin: 50px 0px 5px 0px;
+        text-align: center;
+        font-size: 35px;
+        color: colors.$text-blue;
+        border-bottom: 3px solid colors.$text-yellow;
+        filter: drop-shadow(-20px -20px 20px colors.$text-blue);
+    }
 }
 
 .projekti-flex-box{
@@ -19,8 +27,9 @@
         height: 250px;
         position: relative;
         text-align: center;
-        color: colors.$text-blue;
-
+        color: colors.$text-yellow;
+        background: rgba(colors.$text-blue, 0.1);
+        border-radius: 10px;
         &:last-of-type{
             margin-bottom: 50px;
         }
@@ -29,20 +38,27 @@
         width: 200px;
         height: 200px;
         border-radius: 100px;
-        background: colors.$text-yellow;
+        //background: rgba(colors.$text-yellow, 0);
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 25px;
+        font-size: 30px;
+        font-weight: bold;
         transition: all 0.4s ease;
         &:hover{
             transition: all 0.4s ease;
-            filter: drop-shadow(-10px -10px 30px colors.$text-blue);
-            background-color: rgba(colors.$text-yellow, 0.9);
+            filter: drop-shadow(-20px -20px 40px colors.$text-yellow);
             font-size: 30px;
         }
         h2{
             color: colors.$text-white;
+            position: absolute;
+            background: rgba(colors.$text-blue, 0.8);
+            border-radius: 10px;
+        }
+        .projekt-postotak-container-img{
+            position: relative;
+            width: inherit;
         }
     }
 }

@@ -2,31 +2,37 @@
     {
         "id": 1,
         "naziv": "Prodaja",
-        "postotak": "+75%" 
+        "postotak": "+75%",
+        "img": "https://cdn-icons-png.flaticon.com/512/547/547166.png"
     },
     {
         "id": 2,
         "naziv": "Marketing",
-        "postotak": "+16%" 
+        "postotak": "+16%" ,
+        "img": "https://cdn-icons-png.flaticon.com/512/1997/1997928.png"
     },
     {
         "id": 3,
         "naziv": "Troškovi",
-        "postotak": "-35%" 
+        "postotak": "-35%" ,
+        "img": "https://cdn-icons-png.flaticon.com/512/631/631180.png"
     },
     {
         "id": 4,
         "naziv": "Plaće",
-        "postotak": "+120%"
+        "postotak": "+120%",
+        "img": "https://cdn-icons-png.flaticon.com/512/631/631185.png"
     },
     {
         "id": 5,
         "naziv": "Produktivnost",
-        "postotak": "+67%" 
+        "postotak": "+67%" ,
+        "img": "https://cdn-icons.flaticon.com/png/512/4492/premium/4492492.png?token=exp=1652607415~hmac=4185d38ddc7e25457828a5d0586a329b"
     },
     {
         "id": 6,
-        "naziv": "Zabava IDk",
-        "postotak": "+7%"
+        "naziv": "Timski rad",
+        "postotak": "+7%",
+        "img": "https://cdn-icons.flaticon.com/png/512/5864/premium/5864207.png?token=exp=1652607333~hmac=6c53975e23ffd02152cef0dc6184647e"
     }
 ]

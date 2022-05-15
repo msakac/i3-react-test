@@ -5,12 +5,14 @@ import '../scss/components/projekt.scss'
 function Projekt() {
   return (
     <div className='parent-wrap'>
+        <h1 className='naslov'>Poslovni uspjehi</h1>
         <div className='projekti-flex-box'>
             {
                 Projekti && Projekti.map(projekt =>{
                     return(
                         <div className='projekt-container' key ={projekt.id}>
                             <div className='projekt-postotak-container'>
+                                <img className='projekt-postotak-container-img' src={projekt.img} alt="Slika"></img>
                                 <h2>{projekt.postotak}</h2>
                             </div>
                             <h2>{projekt.naziv}</h2>
