@@ -12,11 +12,12 @@ function Objave() {
   return (
     <div className='parent-wrap'>
         <h1 className='naslov'>Objave</h1>
-        <div className='objava-grid'>
+        
           {
             ObjaveJson && ObjaveJson.map(objava =>{
-              return <>
-                <div className='grid-element grid-col-span-3'>
+              return(
+              <div className='objava-grid' key={objava.id}>
+                <div className='grid-element grid-col-span-3' >
                   <h2 className='objava-naslov'>{objava.naslov}</h2>
                 </div>
                 <div className='grid-element grid-col-span-3'>
@@ -27,18 +28,19 @@ function Objave() {
                 </div>
                 {
                   objava.footer && objava.footer.map(footer =>{
-                    return <>
-                      <div data-aos="fade-left" className='grid-element'>
+                    return (
+                      <div data-aos="fade-left" className='grid-element' key={footer.id}>
                         <img className='objava-footer-slika' alt="slika" src={footer.urlSlika}></img>
                         <p className='objava-footer-tekst'>{footer.sadrzaj}</p>
                       </div>
-                    </>
+                    )
                   })
                 }
-            </>
+               </div> 
+              )
             })
           }
-        </div>
+        
     </div>
   )
 }
