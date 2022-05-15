@@ -1,0 +1,53 @@
+@use '../abstracts/colors.scss';
+
+.objava-footer-slika{
+    width: 100px;
+    align-self: center;
+}
+
+.parent-wrap{
+    width: 60%;
+}
+
+.objava-grid{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 17% 17% 17% 51%;
+    margin-top: 50px;
+    .grid-col-span-3{
+        grid-column: span 3;
+    }
+
+    .grid-row-span-2{
+        grid-row: span 2;
+        align-content: center;
+    }
+
+    .objava-naslovna-slika{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .objava-naslov{
+        text-align: center;
+        font-size: 26px;
+        color: colors.$text-blue;
+    }
+
+
+    .objava-tekst{
+        text-align: center;
+        
+    }
+    .objava-footer-tekst{
+        text-align: center;
+    }
+
+    .objava-footer-slika{
+        display: block;
+        margin: 15px auto 15px auto;
+        width: 50%;
+    }
+}

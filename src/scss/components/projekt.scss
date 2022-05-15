@@ -1,20 +1,6 @@
 @use '../abstracts/colors.scss';
 @use '../abstracts/fonts.scss';
 
-.parent-wrap{
-    width: 50%;
-    justify-content: center;
-    margin: auto;
-    .naslov{
-        margin: 50px 0px 5px 0px;
-        text-align: center;
-        font-size: 35px;
-        color: colors.$text-blue;
-        border-bottom: 3px solid colors.$text-yellow;
-        filter: drop-shadow(-20px -20px 20px colors.$text-blue);
-    }
-}
-
 .projekti-flex-box{
     margin-top: 50px;
     display: flex;
@@ -48,7 +34,7 @@
         &:hover{
             transition: all 0.4s ease;
             filter: drop-shadow(-20px -20px 40px colors.$text-yellow);
-            font-size: 30px;
+            font-size: 40px;
         }
         h2{
             color: colors.$text-white;

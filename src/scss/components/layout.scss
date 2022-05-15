@@ -1,0 +1,19 @@
+@use '../abstracts/colors.scss';
+@use '../abstracts/fonts.scss';
+
+.parent-wrap{
+    width: 50%;
+    max-width: 1920px;
+    justify-content: center;
+    margin: auto;
+    .naslov{
+        margin: 50px 0px 5px 0px;
+        text-align: center;
+        font-size: 35px;
+        color: colors.$text-blue;
+        border-bottom: 3px solid colors.$text-yellow;
+        filter: drop-shadow(-20px -20px 20px colors.$text-blue);
+    }
+}
+
+

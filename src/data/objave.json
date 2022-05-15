@@ -1,59 +1,41 @@
 [
     {
-        "naslov":"",
-        "sadrzaj": "",
-        "naslovnaSlika":"",
+        "naslov":"Što je Lorem Ipsum?",
+        "sadrzaj": "Lorem Ipsum je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj industriji. Lorem Ipsum postoji kao industrijski standard još od 16-og stoljeća, kada je nepoznati tiskar uzeo tiskarsku galiju slova i posložio ih da bi napravio knjigu s uzorkom tiska. Taj je tekst ne samo preživio pet stoljeća, već se i vinuo u svijet elektronskog slovoslagarstva, ostajući u suštini nepromijenjen. Postao je popularan tijekom 1960-ih s pojavom Letraset listova s odlomcima Lorem Ipsum-a, a u skorije vrijeme sa software-om za stolno izdavaštvo kao što je Aldus PageMaker koji također sadrži varijante Lorem Ipsum-a.",
+        "naslovnaSlika":"https://previews.123rf.com/images/asmati/asmati1602/asmati160205455/52563583-traumf%C3%A4nger-zeichen-wohnung-stil-ikone-auf-transparentem-hintergrund.jpg",
         "footer":[
             {
-                "urlSlika":"",
-                "sadrzaj":""
+                "urlSlika":"https://cdn-icons-png.flaticon.com/512/2474/2474455.png",
+                "sadrzaj":"Lorem ipsum dolor sit amet. Aut odit numquam qui obcaecati consequatur ut necessitatibus quasi et quidem adipisci. Eum autem quia aut atque necessitatibus ut blanditiis galisum et ipsa et sint nesciunt eos similique dolor sed exercitationem tenetur. "
             },
             {
-                "urlSlika":"",
-                "sadrzaj":""
+                "urlSlika":"https://cdn-icons-png.flaticon.com/512/1632/1632670.png",
+                "sadrzaj":"Aut aspernatur autem aut voluptate dolor est laudantium dolores? Ut Quis rerum nemo voluptas sed pariatur facere et voluptas veritatis et accusantium iste. Qui inventore iure et ipsa saepe qui officiis assumenda. "
             },
             {
-                "urlSlika":"",
-                "sadrzaj":""
+                "urlSlika":"https://cdn-icons-png.flaticon.com/512/2857/2857527.png",
+                "sadrzaj":"Sit deleniti earum sit numquam enim est cumque maxime. In laborum soluta ea iste sint aut amet consequatur. Id laboriosam odio et veniam quia possimus quia. "
             }
         ]
     },
     {
-        "naslov":"",
-        "sadrzaj": "",
-        "naslovnaSlika":"",
+        "naslov":"Not a Lorem Ipsum whatsoever",
+        "sadrzaj": "Lorem ipsum dolor sit amet. Est molestiae quaerat in debitis officiis qui explicabo libero ab enim nesciunt est quibusdam dolorem ut dignissimos quia. Aut facere corporis quo sapiente totam quo nemo perferendis in accusantium sint ea rerum perspiciatis. Eum Quis illo et incidunt iste ab doloremque laborum. Qui quasi ipsa sit beatae culpa id ullam fuga rem quaerat harum.Et numquam quaerat et temporibus quaerat aut possimus quis et perspiciatis consequatur ut velit velit. Sit magnam iure sit quasi sapiente in dolore dolore? Aut voluptatibus libero qui neque repellat rem quis ratione ut explicabo nesciunt et dolores repudiandae aut facere consectetur.",
+        "naslovnaSlika":"https://www.pngall.com/wp-content/uploads/2/Question-Mark-PNG-Picture.png",
         "footer":[
             {
-                "urlSlika":"",
-                "sadrzaj":""
+                "urlSlika":"https://cdn-icons-png.flaticon.com/512/3652/3652314.png",
+                "sadrzaj":"Aut possimus eaque ea modi consequatur et iure recusandae et consequuntur molestiae a odio mollitia? Ut rerum rerum est nostrum fugit sit iste consectetur et dolor quia eos consequuntur accusantium."
             },
             {
-                "urlSlika":"",
-                "sadrzaj":""
+                "urlSlika":"https://cdn-icons.flaticon.com/png/512/3321/premium/3321726.png?token=exp=1652617164~hmac=44d5a9a697b3a32102a30111ced82f15",
+                "sadrzaj":"Et Quis atque ut quos ullam cum harum deleniti eum sint neque ex perspiciatis quaerat id dignissimos officiis. Sed repudiandae blanditiis et quia magni ea aliquam itaque ab ipsum enim. "
             },
             {
-                "urlSlika":"",
-                "sadrzaj":""
-            }
-        ]
-    },
-    {
-        "naslov":"",
-        "sadrzaj": "",
-        "naslovnaSlika":"",
-        "footer":[
-            {
-                "urlSlika":"",
-                "sadrzaj":""
-            },
-            {
-                "urlSlika":"",
-                "sadrzaj":""
-            },
-            {
-                "urlSlika":"",
-                "sadrzaj":""
+                "urlSlika":"https://cdn-icons.flaticon.com/png/512/4098/premium/4098840.png?token=exp=1652617207~hmac=bff9d5f0e4d9321d9abd6910311dda96",
+                "sadrzaj":"Et voluptatem nihil cum culpa magni sed dicta fugiat aut commodi eveniet est nihil maiores vel laboriosam aspernatur sed earum blanditiis. Et itaque maiores sit omnis omnis et expedita eius."
             }
         ]
     }
 ]
+

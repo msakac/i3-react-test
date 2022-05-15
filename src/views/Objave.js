@@ -1,8 +1,38 @@
 import React from 'react'
-
+import ObjaveJson from '../data/objave.json';
+import '../scss/components/layout.scss'
+import '../scss/components/objava.scss'
 function Objave() {
   return (
-    <h1>Ovo je stranica objave</h1>
+    <div className='parent-wrap'>
+        <h1 className='naslov'>Objave</h1>
+        <div className='objava-grid'>
+          {
+            ObjaveJson && ObjaveJson.map(objava =>{
+              return <>
+                <div className='grid-element grid-col-span-3'>
+                  <h2 className='objava-naslov'>{objava.naslov}</h2>
+                  <p className='objava-tekst'>{objava.sadrzaj}</p>
+                </div>
+                <div className='grid-element grid-row-span-2'>
+                  <img className='objava-naslovna-slika' alt="slika" src={objava.naslovnaSlika}></img>
+                </div>
+                {
+                  objava.footer && objava.footer.map(footer =>{
+                    return <>
+                      <div className='grid-element'>
+                        <img className='objava-footer-slika' alt="slika" src={footer.urlSlika}></img>
+                        <p className='objava-footer-tekst'>{footer.sadrzaj}</p>
+                      </div>
+                    </>
+                  })
+                }
+
+            </>
+            })
+          }
+        </div>
+    </div>
   )
 }
 

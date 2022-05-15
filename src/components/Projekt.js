@@ -1,11 +1,12 @@
 import React from 'react'
 import Projekti from '../data/projekti.json';
 import '../scss/components/projekt.scss'
+import '../scss/components/layout.scss'
 
 function Projekt() {
   return (
     <div className='parent-wrap'>
-        <h1 className='naslov'>Poslovni uspjehi</h1>
+        <h1 className='naslov'>Doprinosi projekta</h1>
         <div className='projekti-flex-box'>
             {
                 Projekti && Projekti.map(projekt =>{
