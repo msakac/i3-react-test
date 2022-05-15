@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ObjaveJson from '../data/objave.json';
+import Aos from 'aos';
+import "aos/dist/aos.css";
+
 import '../scss/components/layout.scss'
 import '../scss/components/objava.scss'
 function Objave() {
+  useEffect(() =>{
+    Aos.init({duration: 800});
+  })
   return (
     <div className='parent-wrap'>
         <h1 className='naslov'>Objave</h1>
@@ -22,7 +28,7 @@ function Objave() {
                 {
                   objava.footer && objava.footer.map(footer =>{
                     return <>
-                      <div className='grid-element'>
+                      <div data-aos="fade-left" className='grid-element'>
                         <img className='objava-footer-slika' alt="slika" src={footer.urlSlika}></img>
                         <p className='objava-footer-tekst'>{footer.sadrzaj}</p>
                       </div>
