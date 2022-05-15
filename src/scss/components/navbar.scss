@@ -81,7 +81,7 @@
             position: absolute;
             //top: -250%;
             top: 80px;
-            right: -120%;
+            left: -120%;
             background: colors.$gradient-yellow;
             opacity: 1;
             z-index: 1;
@@ -89,7 +89,7 @@
         }
     
         .navbar-menu.active{
-            right: 0%;
+            left: 0%;
             transition: all 0.5s ease-in-out;
             position:absolute;
         }

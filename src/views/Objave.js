@@ -12,6 +12,8 @@ function Objave() {
               return <>
                 <div className='grid-element grid-col-span-3'>
                   <h2 className='objava-naslov'>{objava.naslov}</h2>
+                </div>
+                <div className='grid-element grid-col-span-3'>
                   <p className='objava-tekst'>{objava.sadrzaj}</p>
                 </div>
                 <div className='grid-element grid-row-span-2'>
@@ -27,7 +29,6 @@ function Objave() {
                     </>
                   })
                 }
-
             </>
             })
           }
